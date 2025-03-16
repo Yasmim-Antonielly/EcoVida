@@ -10,7 +10,7 @@ export default function Home() {
           <Navbar />
         </div>
       </div>
-      
+
       {/* Hero Section com fundo cinza */}
       <div className="w-full bg-background-silver">
         <div className="max-w-[1440px] mx-auto px-4 md:px-8">
@@ -50,10 +50,16 @@ export default function Home() {
 
         {/* Video Section */}
         <section className="mt-16 md:mt-20 flex justify-center">
-          <div className="w-full max-w-2xl">
-            <div className="bg-gray-200 w-full aspect-video flex items-center justify-center">
-              <p className="text-text-headers">Vídeo do pitch</p>
-            </div>
+          <div className="w-full max-w-4xl">
+            <iframe
+              className="w-full aspect-video"
+              src="https://www.youtube.com/embed/ebZK9wtOv_k?si=whLcQGAkZvvBDqjw"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
           </div>
         </section>
 
