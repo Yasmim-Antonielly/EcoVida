@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Archivo } from "next/font/google";
 import './globals.css';
+import { ThemeProvider } from "@/contexts/ThemeContext";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -27,7 +28,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br" className={`${inter.variable} ${archivo.variable}`}>
-      <body className="bg-white" style={{ fontFamily: 'var(--font-inter)', color: '#717171' }}>{children}</body>
+      <body className="bg-background-white text-text-body">
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
     </html>
   );
 }

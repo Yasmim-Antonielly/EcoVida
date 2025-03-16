@@ -5,24 +5,73 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --background-silver: #f5f7fa;
+  --brand-primary: #4caf4f;
+  --text-headers: #4d4d4d;
+  --text-body: #717171;
+  --card-background: #ffffff;
+  --card-border: #e5e7eb;
+  --navbar-background: #ffffff;
+}
+
+.dark {
+  --background: #121212;
+  --foreground: #e5e5e5;
+  --background-silver: #1e1e1e;
+  --brand-primary: #5cbe5f;
+  --text-headers: #ffffff;
+  --text-body: #a3a3a3;
+  --card-background: #1e1e1e;
+  --card-border: #333333;
+  --navbar-background: #0f0f0f;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-archivo);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans, Arial, Helvetica, sans-serif);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bg-background-silver {
+  background-color: var(--background-silver);
+}
+
+.bg-background-white {
+  background-color: var(--background);
+}
+
+.text-text-headers {
+  color: var(--text-headers);
+}
+
+.text-text-body {
+  color: var(--text-body);
+}
+
+.text-brand-primary {
+  color: var(--brand-primary);
+}
+
+.bg-brand-primary {
+  background-color: var(--brand-primary);
+}
+
+.bg-white {
+  background-color: var(--background);
+}
+
+.bg-gray-100 {
+  background-color: var(--background-silver);
+}
+
+.border-gray-200 {
+  border-color: var(--card-border);
 }

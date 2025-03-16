@@ -35,11 +35,11 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="w-full py-16 bg-background-white">
+    <div className="w-full py-16 bg-background-white transition-colors">
       <div className="max-w-[1440px] mx-auto px-4">
         <div className="flex flex-col-reverse md:flex-row md:items-start md:gap-12 lg:gap-20">
           <div className="form-content md:w-1/2 mt-10 md:mt-0">
-            <h2 className="text-2xl md:text-3xl lg:text-h2 font-semibold text-text-headers mb-10">
+            <h2 className="text-2xl md:text-3xl lg:text-h2 font-semibold text-text-headers mb-10 transition-colors">
               Fale conosco para saber mais ou colaborar.
             </h2>
             <form onSubmit={handleSubmit} className="flex flex-col gap-6 mb-10">
@@ -51,7 +51,7 @@ const ContactForm = () => {
                   required
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full p-4 border border-gray-200 rounded-lg bg-gray-100 font-normal text-body-lg text-text-body focus:outline-none focus:border-brand-primary focus:bg-white"
+                  className="w-full p-4 border border-card-border rounded-lg bg-background-silver font-normal text-body-lg text-text-body focus:outline-none focus:border-brand-primary focus:bg-background-white transition-colors"
                 />
               </div>
               <div className="w-full">
@@ -62,7 +62,7 @@ const ContactForm = () => {
                   required
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full p-4 border border-gray-200 rounded-lg bg-gray-100 font-normal text-body-lg text-text-body focus:outline-none focus:border-brand-primary focus:bg-white"
+                  className="w-full p-4 border border-card-border rounded-lg bg-background-silver font-normal text-body-lg text-text-body focus:outline-none focus:border-brand-primary focus:bg-background-white transition-colors"
                 />
               </div>
               <div className="w-full">
@@ -73,7 +73,7 @@ const ContactForm = () => {
                   required
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full p-4 border border-gray-200 rounded-lg bg-gray-100 font-normal text-body-lg text-text-body focus:outline-none focus:border-brand-primary focus:bg-white"
+                  className="w-full p-4 border border-card-border rounded-lg bg-background-silver font-normal text-body-lg text-text-body focus:outline-none focus:border-brand-primary focus:bg-background-white transition-colors"
                 />
               </div>
               <div className="w-full">
@@ -84,12 +84,12 @@ const ContactForm = () => {
                   required
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full p-4 border border-gray-200 rounded-lg bg-gray-100 font-normal text-body-lg text-text-body resize-vertical min-h-[120px] focus:outline-none focus:border-brand-primary focus:bg-white"
+                  className="w-full p-4 border border-card-border rounded-lg bg-background-silver font-normal text-body-lg text-text-body resize-vertical min-h-[120px] focus:outline-none focus:border-brand-primary focus:bg-background-white transition-colors"
                 />
               </div>
               <button
                 type="submit"
-                className="bg-brand-primary text-white py-4 px-8 rounded-lg font-normal text-body-lg cursor-pointer transition-opacity hover:opacity-90 w-fit"
+                className="bg-brand-primary text-white py-4 px-8 rounded-lg font-normal text-body-lg cursor-pointer transition-all hover:opacity-90 w-fit"
               >
                 Entre em contato
               </button>
@@ -101,7 +101,7 @@ const ContactForm = () => {
               alt="Ilustração de duas pessoas interagindo com uma interface"
               width={400}
               height={400}
-              className="max-w-full h-auto"
+              className="max-w-full h-auto dark:opacity-90 transition-opacity"
               priority
             />
           </div>

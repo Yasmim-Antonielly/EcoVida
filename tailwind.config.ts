@@ -5,19 +5,41 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/contexts/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        "brand-primary": "#4caf4f",
-        "background-silver": "#f5f7fa",
-        "background-white": "#ffffff",
-        "text-headers": "#4d4d4d",
-        "text-body": "#717171",
+        "brand-primary": {
+          DEFAULT: "var(--brand-primary)",
+          light: "#4caf4f",
+          dark: "#5cbe5f",
+        },
+        "background-silver": {
+          DEFAULT: "var(--background-silver)",
+          light: "#f5f7fa",
+          dark: "#1e1e1e",
+        },
+        "background-white": {
+          DEFAULT: "var(--background)",
+          light: "#ffffff",
+          dark: "#121212",
+        },
+        "text-headers": {
+          DEFAULT: "var(--text-headers)",
+          light: "#4d4d4d",
+          dark: "#ffffff",
+        },
+        "text-body": {
+          DEFAULT: "var(--text-body)",
+          light: "#717171",
+          dark: "#a3a3a3",
+        },
       },
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
-        archivo: ["Archivo", "sans-serif"],
+        inter: ["var(--font-inter)", "sans-serif"],
+        archivo: ["var(--font-archivo)", "sans-serif"],
       },
       fontSize: {
         h1: ["64px", "76px"],
