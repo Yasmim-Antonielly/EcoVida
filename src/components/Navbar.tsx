@@ -16,7 +16,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full max-w-7xl mx-auto grid grid-flow-col grid-cols-[0.3fr_1fr_0.3fr] px-10 py-5 items-start justify-center">
+    <nav className="w-full max-w-[1440px] mx-auto px-6 py-4 flex justify-between items-center">
       <div className="flex items-center gap-2">
         <Link href="/">
           <div className="flex items-center gap-2">
@@ -35,7 +35,7 @@ const Navbar = () => {
           </div>
         </Link>
       </div>
-      <div className="nav-pages flex gap-8 justify-center flex-grow">
+      <div className="hidden md:flex items-center gap-8">
         {navLinks.map((link) => (
           <Link
             key={link.href}

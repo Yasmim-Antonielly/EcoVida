@@ -36,10 +36,10 @@ const ContactForm = () => {
 
   return (
     <div className="w-full py-16 bg-background-white">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 items-center">
-          <div className="form-content">
-            <h2 className="text-h2 font-semibold text-text-headers mb-10">
+      <div className="max-w-[1440px] mx-auto px-4">
+        <div className="flex flex-col-reverse md:flex-row md:items-start md:gap-12 lg:gap-20">
+          <div className="form-content md:w-1/2 mt-10 md:mt-0">
+            <h2 className="text-2xl md:text-3xl lg:text-h2 font-semibold text-text-headers mb-10">
               Fale conosco para saber mais ou colaborar.
             </h2>
             <form onSubmit={handleSubmit} className="flex flex-col gap-6 mb-10">
@@ -89,19 +89,20 @@ const ContactForm = () => {
               </div>
               <button
                 type="submit"
-                className="bg-brand-primary text-white py-4 px-8 rounded-lg font-normal text-body-lg cursor-pointer transition-opacity hover:opacity-90 w-fit md:w-auto"
+                className="bg-brand-primary text-white py-4 px-8 rounded-lg font-normal text-body-lg cursor-pointer transition-opacity hover:opacity-90 w-fit"
               >
                 Entre em contato
               </button>
             </form>
           </div>
-          <div className="flex justify-center items-center">
+          <div className="md:w-1/2 flex justify-center items-center">
             <Image
               src="/assets/images/contact-illustration.svg"
               alt="Ilustração de duas pessoas interagindo com uma interface"
-              width={442}
-              height={434}
+              width={400}
+              height={400}
               className="max-w-full h-auto"
+              priority
             />
           </div>
         </div>

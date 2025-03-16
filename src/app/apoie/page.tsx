@@ -92,7 +92,7 @@ export default function Apoie() {
           <h2>
             Juntos, podemos criar um futuro de energia limpa e acessível para
             todos.
-            <span className="block text-brand-primary mt-2">
+            <span className="block mt-2" style={{ color: "#4caf4f" }}>
               Participe dessa transformação!
             </span>
           </h2>

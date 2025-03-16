@@ -27,7 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br" className={`${inter.variable} ${archivo.variable}`}>
-      <body className="font-inter text-text-body bg-white">{children}</body>
+      <body className="bg-white" style={{ fontFamily: 'var(--font-inter)', color: '#717171' }}>{children}</body>
     </html>
   );
 }
