@@ -1,0 +1,54 @@
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-inter text-text-body m-0 overflow-x-hidden;
+  }
+  
+  h1 {
+    @apply font-semibold text-h1 text-text-headers;
+  }
+  
+  h2 {
+    @apply font-semibold text-h2 text-text-headers;
+  }
+  
+  p {
+    @apply font-normal text-body-lg text-text-body;
+  }
+  
+  section ol {
+    @apply my-6 pl-6 text-body-lg text-text-body text-left;
+  }
+  
+  section ol li {
+    @apply mb-4 leading-relaxed text-body-lg text-text-body;
+  }
+  
+  section ul {
+    @apply my-6 pl-6 text-body-lg text-text-body text-left list-disc;
+  }
+  
+  section ul li {
+    @apply mb-4 leading-relaxed text-body-lg text-text-body;
+  }
+}
+
+@layer components {
+  .sections {
+    @apply w-full max-w-7xl mx-auto px-10;
+  }
+  
+  .sections section {
+    @apply my-12;
+  }
+  
+  .highlights {
+    @apply text-brand-primary;
+  }
+}
