@@ -1,7 +1,5 @@
 import Navbar from '@/components/Navbar';
 import ContactForm from '@/components/ContactForm';
-// Nota: No Next.js com App Router, não é necessário importar globals.css em cada página
-// pois ele já é importado no arquivo layout.tsx e se aplica globalmente
 
 export default function Problematica() {
   return (

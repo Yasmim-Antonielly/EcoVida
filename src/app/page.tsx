@@ -1,6 +1,5 @@
 import Navbar from '@/components/Navbar';
 import ContactForm from '@/components/ContactForm';
-import './globals.css';
 
 export default function Home() {
   return (
