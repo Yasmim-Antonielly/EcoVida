@@ -37,6 +37,17 @@ const config: Config = {
     },
   },
   plugins: [],
+  presets: [{
+    theme: {
+      extend: {
+        textStyles: {
+          h1: 'font-semibold text-4xl md:text-5xl lg:text-6xl text-text-headers leading-tight',
+          h2: 'font-semibold text-2xl md:text-3xl lg:text-4xl text-text-headers',
+          p: 'font-normal text-base md:text-body-lg text-text-body leading-relaxed'
+        }
+      }
+    }
+  }]
 };
 
 export default config;
