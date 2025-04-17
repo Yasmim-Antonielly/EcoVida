@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar';
 import ContactForm from '@/components/ContactForm';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 export default function Solucao() {
   return (
@@ -131,6 +132,7 @@ export default function Solucao() {
         </h2>
         <ContactForm />
       </div>
+      <WhatsAppButton />
     </main>
   );
 }

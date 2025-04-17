@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar';
 import ContactForm from '@/components/ContactForm';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 export default function Problematica() {
   return (
@@ -99,6 +100,7 @@ export default function Problematica() {
         </h2>
         <ContactForm />
       </div>
+      <WhatsAppButton />
     </main>
   );
 }

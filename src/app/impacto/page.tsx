@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar';
 import ContactForm from '@/components/ContactForm';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 export default function Impacto() {
   return (
@@ -140,6 +141,7 @@ export default function Impacto() {
         </h2>
         <ContactForm />
       </div>
+      <WhatsAppButton />
     </main>
   );
 }
