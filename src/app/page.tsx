@@ -17,11 +17,11 @@ export default function Home() {
         <div className="max-w-[1440px] mx-auto px-4 md:px-8">
           <div className="py-8 md:py-12">
             <h1 className="text-4xl md:text-5xl font-medium text-text-headers text-center">
-              Energia Sustentável para um
-              <span className="block mt-1 text-brand-primary">Futuro Justo</span>
+              EcoVida
+              <span className="block mt-1 text-brand-primary">Prevenção de Desastres Naturais</span>
             </h1>
             <p className="mt-6 text-text-body max-w-3xl mx-auto text-center">
-              Nosso projeto para a Global Solution 2024 apresenta uma proposta de microgrids comunitários que utilizam energia solar e eólica para fornecer eletricidade limpa e acessível a comunidades carentes, promovendo autonomia e desenvolvimento sustentável.
+              Aplicativo que salva vidas e evita acidentes por meio da comunicação de possíveis desastres naturais no seu Estado, cidade e inclusive no seu bairro!
             </p>
           </div>
         </div>
@@ -29,23 +29,23 @@ export default function Home() {
 
       {/* Seções centralizadas */}
       <div className="max-w-[1440px] mx-auto px-4 md:px-8">
+        {/* Quem Somos */}
+        <section className="mt-16 md:mt-20">
+          <h2 className="text-2xl md:text-3xl font-medium text-text-headers text-center">
+            Quem Somos
+          </h2>
+          <p className="mt-4 text-text-body max-w-3xl mx-auto text-center">
+            Em um cenário marcado pelo aquecimento global, pessoas do mundo inteiro estão sofrendo as consequências perdendo suas casas, meios de subsistência, rotinas, saúde e até mesmo a própria vida nas enchentes, inundações, secas, dentre os mais diversos desastres naturais, conforme publicado no estudo realizado pela Organização Metereológica Mundial, OMM, em maio de 2023: "Extensas inundações no Paquistão causadas por fortes chuvas em julho e agosto do ano passado mataram mais de 1,7 mil pessoas e cerca de 33 milhões foram afetadas. A OMM destaca que os danos totais e as perdas econômicas foram avaliados em US$ 30 bilhões e que, até outubro de 2022, cerca de 8 milhões de pessoas foram deslocadas internamente pelas enchentes." Preocupados com esse cenário, nós, da Ecovida, desenvolvemos um aplicativo visando minimizar esses efeitos a partir de um bem comum: a comunicação.
+          </p>
+        </section>
+
         {/* Nossa Missão */}
         <section className="mt-16 md:mt-20">
           <h2 className="text-2xl md:text-3xl font-medium text-text-headers text-center">
             Nossa Missão
           </h2>
           <p className="mt-4 text-text-body max-w-3xl mx-auto text-center">
-            Facilitar a transição para um futuro mais sustentável, garantindo que comunidades e indivíduos tenham acesso acessível e equitativo às tecnologias de energia renovável.
-          </p>
-        </section>
-
-        {/* Por Que Microgrids? */}
-        <section className="mt-16 md:mt-20">
-          <h2 className="text-2xl md:text-3xl font-medium text-text-headers text-center">
-            Por Que Microgrids?
-          </h2>
-          <p className="mt-4 text-text-body max-w-3xl mx-auto text-center">
-            Uma alternativa eficiente e econômica para geração local de energia limpa.
+            Tendo em vista que diversas pessoas não recebem informações rápidas e precisas sobre eventos que estão por acontecer ou que já estão ocorrendo em suas regiões, surgiu a preocupação sobre como facilitar a recepção da comunicação dos alertas ambientais, que nos levou a criação de uma solução que atendesse a esses critérios: o EcoVida! Sendo simples e intuitivo, o Ecovida é um aplicativo que notifica os usuários sobre possíveis desastres naturais na sua cidade, permitindo que eles se preparem e tomem as devidas precauções de forma mais eficiente.
           </p>
         </section>
 

@@ -29,16 +29,9 @@ const Navbar = () => {
           <div className="flex items-center gap-2">
             <Image
               src="/assets/logo.svg"
-              alt="Lumera Logo"
-              width={41}
-              height={24}
-            />
-            <Image
-              src="/assets/logo-text.svg"
-              alt="Lumera Logo Texto"
-              width={98}
-              height={23}
-              className="dark:invert"
+              alt="Ecovida Logo"
+              width={158}
+              height={98}
             />
           </div>
         </Link>
