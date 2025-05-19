@@ -15,7 +15,7 @@ const Navbar = () => {
     { href: "/problematica", label: "Sobre a Problemática" },
     { href: "/solucao", label: "Nossa Solução" },
     { href: "/impacto", label: "Impacto Social e Ambiental" },
-    { href: "/apoie", label: "Apoie" },
+    { href: "/proximos-passos", label: "Próximos Passos" },
   ];
 
   const toggleMobileMenu = () => {

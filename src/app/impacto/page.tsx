@@ -17,10 +17,10 @@ export default function Impacto() {
         <div className="max-w-[1440px] mx-auto px-4 md:px-8">
           <div className="py-8 md:py-12">
             <h1 className="text-4xl md:text-5xl font-medium text-text-headers text-center">
-              Transformação com <span className="text-brand-primary">Energia Limpa</span>
+              Segurança com <span className="text-brand-primary">Tecnologia Preventiva</span>
             </h1>
             <p className="mt-6 text-text-body max-w-3xl mx-auto text-center">
-              Nosso projeto visa melhorar a vida das pessoas, oferecendo acesso a energia limpa e impulsionando o desenvolvimento econômico e social.
+              Nosso aplicativo visa salvar vidas e minimizar danos por meio da previsão, monitoramento e comunicação eficaz em situações de risco ambiental.
             </p>
           </div>
         </div>
@@ -31,57 +31,35 @@ export default function Impacto() {
         {/* Inclusão Social */}
         <section className="mb-16">
           <h2 className="text-2xl md:text-3xl font-medium text-text-headers text-center mb-8">
-            Inclusão Social
+            Acesso à Informação e Inclusão
           </h2>
           <div className="max-w-4xl mx-auto">
             <p className="mb-6 text-text-body">
-              O acesso à energia limpa é um catalisador para o desenvolvimento
-              social e econômico em comunidades carentes. Com a implementação de
-              microgrids, é possível levar eletricidade confiável a áreas isoladas
-              ou com infraestrutura precária, possibilitando o funcionamento de
-              escolas, postos de saúde, e pequenos negócios.
+              O acesso rápido e preciso a informações pode salvar vidas em situações de emergência. Nosso aplicativo democratiza o acesso a dados meteorológicos e alertas oficiais, alcançando até mesmo regiões remotas ou com baixa conectividade.
             </p>
             <p className="mb-6 text-text-body">
-              A energia sustentável promove avanços na educação ao iluminar salas
-              de aula e permitir o uso de tecnologias modernas, como computadores
-              e internet. Na saúde, garante equipamentos médicos funcionando
-              plenamente e a preservação de medicamentos em condições adequadas.
-              Além disso, gera oportunidades de emprego e fomenta a criação de
-              empreendimentos locais, fortalecendo a autonomia e a dignidade das
-              comunidades.
+              Por meio de notificações em tempo real, mapas interativos e linguagem acessível, comunidades vulneráveis podem se preparar melhor para enfrentar eventos como enchentes, deslizamentos e tempestades. A inclusão digital promove a autonomia local e reduz desigualdades no acesso à prevenção.
             </p>
             <p className="text-text-body">
-              Ao investir em inclusão social por meio da energia limpa, o projeto
-              não só atende às necessidades básicas, mas também promove a
-              igualdade de oportunidades, ajudando a construir um futuro mais
-              justo e sustentável.
+              Garantir que todos tenham acesso à informação em tempo hábil é essencial para uma resposta eficaz e equitativa diante de desastres naturais, protegendo vidas e fortalecendo a resiliência das comunidades.
             </p>
           </div>
         </section>
 
-        {/* Redução de Emissões */}
+        {/* Redução de Danos Ambientais e Humanos */}
         <section className="mb-16">
           <h2 className="text-2xl md:text-3xl font-medium text-text-headers text-center mb-8">
-            Redução de Emissões
+            Redução de Danos e Impactos
           </h2>
           <div className="max-w-4xl mx-auto">
             <p className="mb-6 text-text-body">
-              A transição para fontes renováveis como solar e eólica tem um
-              impacto significativo na redução das emissões de gases de efeito
-              estufa. Ao substituir combustíveis fósseis por fontes limpas, os
-              microgrids contribuem diretamente para a mitigação do aquecimento
-              global e a proteção do meio ambiente.
+              A prevenção é a melhor forma de reduzir os impactos devastadores de desastres naturais. Com nossa tecnologia, é possível alertar a população com antecedência, permitindo evacuações seguras e planos de contingência bem estruturados.
             </p>
             <p className="mb-6 text-text-body">
-              Cada unidade de energia gerada de forma renovável evita a liberação
-              de toneladas de dióxido de carbono na atmosfera. Além disso, ao
-              promover sistemas locais de geração e armazenamento, reduz-se também
-              a emissão relacionada ao transporte de energia em longas distâncias.
+              Além de proteger vidas humanas, o aplicativo contribui para evitar perdas econômicas e danos ambientais, auxiliando gestores públicos e equipes de emergência a tomarem decisões baseadas em dados e análises geoespaciais em tempo real.
             </p>
             <p className="text-text-body">
-              Essa abordagem permite não apenas atender às demandas energéticas de
-              hoje, mas também preservar recursos naturais e garantir um ambiente
-              mais saudável para as futuras gerações.
+              A integração com sistemas de defesa civil e o uso de inteligência artificial aumentam a precisão dos alertas e diminuem o tempo de resposta, tornando as ações mais eficazes e organizadas.
             </p>
           </div>
         </section>
@@ -89,46 +67,28 @@ export default function Impacto() {
         {/* Exemplos de Sucesso */}
         <section className="mb-16">
           <h2 className="text-2xl md:text-3xl font-medium text-text-headers text-center mb-8">
-            Exemplos de Sucesso
+            Histórias que Inspiram
           </h2>
           <div className="max-w-4xl mx-auto">
             <p className="mb-6 text-text-body">
-              Histórias reais destacam o impacto positivo que os microgrids
-              renováveis podem trazer:
+              Casos reais mostram o poder da informação na prevenção de tragédias:
             </p>
             <ol className="list-decimal pl-6 mb-6 space-y-4 text-text-body">
               <li>
-                <strong className="font-medium text-text-headers">Comunidade X:</strong> Localizada em uma região remota,
-                antes dependente de geradores a diesel, viu seus custos de energia
-                diminuírem em 50% após a implementação de um microgrid solar. Isso
-                permitiu o funcionamento de uma escola com energia confiável e o
-                surgimento de novos negócios na região.
+                <strong className="font-medium text-text-headers">Cidade A:</strong> Após receber alertas antecipados de risco de alagamento, a prefeitura mobilizou rapidamente a evacuação de 2 bairros, evitando perdas humanas e facilitando o atendimento de emergência.
               </li>
               <li>
-                <strong className="font-medium text-text-headers">Vila Y:</strong> Uma pequena vila que enfrentava
-                constantes apagões, adotou um microgrid eólico, garantindo
-                eletricidade 24 horas por dia. Essa estabilidade energética
-                resultou no aumento da produtividade agrícola e na preservação de
-                alimentos por mais tempo.
+                <strong className="font-medium text-text-headers">Comunidade B:</strong> Uma vila em área montanhosa foi notificada sobre deslizamentos iminentes. Graças à resposta preventiva, famílias foram transferidas e abrigos foram ativados com segurança.
               </li>
               <li>
-                <strong className="font-medium text-text-headers">Projeto Z:</strong> Em uma área urbana de baixa renda, o
-                microgrid combinado de energia solar e baterias possibilitou o
-                funcionamento contínuo de clínicas de saúde, salvando vidas e
-                melhorando a qualidade do atendimento.
+                <strong className="font-medium text-text-headers">Escola C:</strong> Professores e alunos participaram de um simulado coordenado pelo app, o que reduziu o tempo de reação em emergências e aumentou a confiança da comunidade escolar em situações de risco.
               </li>
             </ol>
             <p className="mb-6 text-text-body">
-              Esses exemplos ilustram como os microgrids renováveis podem transformar
-              realidades, promovendo um ciclo de desenvolvimento sustentável e
-              gerando impactos duradouros nas comunidades atendidas.
+              Esses exemplos reforçam a importância de um sistema de alerta eficaz, que transforma a tecnologia em um escudo protetor para milhares de pessoas expostas a desastres naturais todos os anos.
             </p>
             <p className="text-text-body">
-              O modelo também incentiva práticas de consumo consciente, promovendo
-              o uso responsável de recursos naturais e contribuindo para a
-              preservação ambiental. Assim, os microgrids não apenas fornecem
-              energia, mas também pavimentam o caminho para um modelo energético
-              mais equilibrado e harmonioso com o meio ambiente.
+              Prevenção, preparo e resposta são pilares para um futuro mais seguro. Ao combinar dados, comunicação e mobilização, nosso app representa uma nova era na gestão de riscos e na defesa da vida.
             </p>
           </div>
         </section>
@@ -137,7 +97,7 @@ export default function Impacto() {
       {/* Contact Form */}
       <div className="max-w-[1440px] mx-auto px-4 md:px-8 pb-16">
         <h2 className="text-2xl md:text-3xl font-medium text-text-headers text-center mb-8">
-          Fale conosco para saber mais ou colaborar.
+          Entre em contato para saber mais ou contribuir com o projeto.
         </h2>
         <ContactForm />
       </div>
