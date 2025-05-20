@@ -37,6 +37,16 @@ export default function Home() {
           <p className="mt-4 text-text-body max-w-3xl mx-auto text-center">
             Em um cenário marcado pelo aquecimento global, pessoas do mundo inteiro estão sofrendo as consequências perdendo suas casas, meios de subsistência, rotinas, saúde e até mesmo a própria vida nas enchentes, inundações, secas, dentre os mais diversos desastres naturais, conforme publicado no estudo realizado pela Organização Metereológica Mundial, OMM, em maio de 2023: "Extensas inundações no Paquistão causadas por fortes chuvas em julho e agosto do ano passado mataram mais de 1,7 mil pessoas e cerca de 33 milhões foram afetadas. A OMM destaca que os danos totais e as perdas econômicas foram avaliados em US$ 30 bilhões e que, até outubro de 2022, cerca de 8 milhões de pessoas foram deslocadas internamente pelas enchentes." Preocupados com esse cenário, nós, da Ecovida, desenvolvemos um aplicativo visando minimizar esses efeitos a partir de um bem comum: a comunicação.
           </p>
+          <div className="mt-6 text-center">
+            <a
+              href="https://docs.google.com/document/d/1Lv6AKnlWqZ0GDDokIeDiJjM0z9vzYhb5zj-JXKTN6Tc/edit?hl=pt-br&tab=t.0#heading=h.rtl6xs1e6fq0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-brand-primary underline hover:text-brand-secondary transition-colors text-lg font-medium"
+            >
+              Integrantes do projeto
+            </a>
+          </div>
         </section>
 
         {/* Nossa Missão */}
