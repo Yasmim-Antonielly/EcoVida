@@ -12,8 +12,7 @@ const Navbar = () => {
 
   const navLinks = [
     { href: "/", label: "Home" },
-    { href: "/problematica", label: "Sobre a Problemática" },
-    { href: "/solucao", label: "Nossa Solução" },
+    { href: "/mvp", label: "Projeto" },
     { href: "/impacto", label: "Impacto Social e Ambiental" },
     { href: "/proximos-passos", label: "Próximos Passos" },
   ];

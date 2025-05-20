@@ -16,9 +16,9 @@ const archivo = Archivo({
 });
 
 export const metadata: Metadata = {
-  title: "Lumera - Energia Sustentável para um Futuro Justo",
+  title: "EcoVida",
   description:
-    "Microgrids comunitários que utilizam energia solar e eólica para fornecer eletricidade limpa e acessível",
+    "Aplicativo que salva vidas e evita acidentes por meio da comunicação de possíveis desastres naturais no seu Estado, cidade e inclusive no seu bairro!  ",
 };
 
 export default function RootLayout({
