@@ -17,7 +17,7 @@ export default function Projeto() {
         <div className="max-w-[1440px] mx-auto px-4 md:px-8">
           <div className="py-8 md:py-12">
             <h1 className="text-4xl md:text-5xl font-medium text-text-headers text-center">
-              EcoVida
+              Guardiã Natural
               <span className="block mt-1 text-brand-primary">Prevenção de Desastres Naturais</span>
             </h1>
             <p className="mt-6 text-text-body max-w-3xl mx-auto text-center">
