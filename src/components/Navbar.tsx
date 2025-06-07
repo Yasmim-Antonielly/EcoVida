@@ -28,7 +28,7 @@ const Navbar = () => {
           <div className="flex items-center gap-2">
             <Image
               src="/assets/logo.svg"
-              alt="Ecovida Logo"
+              alt="Guardiã Natural Logo"
               width={158}
               height={98}
             />
