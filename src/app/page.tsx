@@ -17,7 +17,7 @@ export default function Home() {
         <div className="max-w-[1440px] mx-auto px-4 md:px-8">
           <div className="py-8 md:py-12">
             <h1 className="text-4xl md:text-5xl font-medium text-text-headers text-center">
-              EcoVida
+              Guardiã Natural
               <span className="block mt-1 text-brand-primary">Prevenção de Desastres Naturais</span>
             </h1>
             <p className="mt-6 text-text-body max-w-3xl mx-auto text-center">
@@ -35,7 +35,7 @@ export default function Home() {
             Quem Somos
           </h2>
           <p className="mt-4 text-text-body max-w-3xl mx-auto text-center">
-            Em um cenário marcado pelo aquecimento global, pessoas do mundo inteiro estão sofrendo as consequências perdendo suas casas, meios de subsistência, rotinas, saúde e até mesmo a própria vida nas enchentes, inundações, secas, dentre os mais diversos desastres naturais, conforme publicado no estudo realizado pela Organização Metereológica Mundial, OMM, em maio de 2023: &quotExtensas inundações no Paquistão causadas por fortes chuvas em julho e agosto do ano passado mataram mais de 1,7 mil pessoas e cerca de 33 milhões foram afetadas. A OMM destaca que os danos totais e as perdas econômicas foram avaliados em US$ 30 bilhões e que, até outubro de 2022, cerca de 8 milhões de pessoas foram deslocadas internamente pelas enchentes.&quot Preocupados com esse cenário, nós, da Ecovida, desenvolvemos um aplicativo visando minimizar esses efeitos a partir de um bem comum: a comunicação.
+            Em um cenário marcado pelo aquecimento global, pessoas do mundo inteiro estão sofrendo as consequências perdendo suas casas, meios de subsistência, rotinas, saúde e até mesmo a própria vida nas enchentes, inundações, secas, dentre os mais diversos desastres naturais, conforme publicado no estudo realizado pela Organização Metereológica Mundial, OMM, em maio de 2023: &quotExtensas inundações no Paquistão causadas por fortes chuvas em julho e agosto do ano passado mataram mais de 1,7 mil pessoas e cerca de 33 milhões foram afetadas. A OMM destaca que os danos totais e as perdas econômicas foram avaliados em US$ 30 bilhões e que, até outubro de 2022, cerca de 8 milhões de pessoas foram deslocadas internamente pelas enchentes.&quot Preocupados com esse cenário, nós, da Guardiã Natural, desenvolvemos um aplicativo visando minimizar esses efeitos a partir de um bem comum: a comunicação.
           </p>
           <div className="mt-6 text-center">
             <a
@@ -55,7 +55,7 @@ export default function Home() {
             Nossa Missão
           </h2>
           <p className="mt-4 text-text-body max-w-3xl mx-auto text-center">
-            Tendo em vista que diversas pessoas não recebem informações rápidas e precisas sobre eventos que estão por acontecer ou que já estão ocorrendo em suas regiões, surgiu a preocupação sobre como facilitar a recepção da comunicação dos alertas ambientais, que nos levou a criação de uma solução que atendesse a esses critérios: o EcoVida! Sendo simples e intuitivo, o Ecovida é um aplicativo que notifica os usuários sobre possíveis desastres naturais na sua cidade, permitindo que eles se preparem e tomem as devidas precauções de forma mais eficiente.
+            Tendo em vista que diversas pessoas não recebem informações rápidas e precisas sobre eventos que estão por acontecer ou que já estão ocorrendo em suas regiões, surgiu a preocupação sobre como facilitar a recepção da comunicação dos alertas ambientais, que nos levou a criação de uma solução que atendesse a esses critérios: a Guardiã Natural! Sendo simples e intuitivo, a Guardiã Natural é um aplicativo que notifica os usuários sobre possíveis desastres naturais na sua cidade, permitindo que eles se preparem e tomem as devidas precauções de forma mais eficiente.
           </p>
         </section>
 

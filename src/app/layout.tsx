@@ -16,7 +16,7 @@ const archivo = Archivo({
 });
 
 export const metadata: Metadata = {
-  title: "EcoVida",
+  title: "Guardiã Natural",
   description:
     "Aplicativo que salva vidas e evita acidentes por meio da comunicação de possíveis desastres naturais no seu Estado, cidade e inclusive no seu bairro!  ",
 };
